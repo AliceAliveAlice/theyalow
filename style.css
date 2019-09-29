@@ -1,0 +1,410 @@
+@font-face {
+    src: url(./assets/fonts/SegoeWP.ttf);
+    font-family: segoe;
+}
+@font-face {
+    src: url(./assets/fonts/SegoeWP-Light.ttf);
+    font-family: segoeLight;
+}
+@font-face {
+    src: url(./assets/fonts/LucidaSans.ttf);
+    font-family: lucidaSans;
+}
+@font-face {
+    src: url(./assets/fonts/Asap-Regular.ttf);
+    font-family: Asap;
+}
+@font-face {
+    src: url(./assets/fonts/SegoeUI-Light.ttf);
+    font-family: SegoeUI;
+}
+@font-face {
+    src: url(./assets/fonts/SegoeUI-Bold.ttf);
+    font-family: SegoeUIbold;
+}
+@font-face {
+    src: url(./assets/fonts/SegoeUI.ttf);
+    font-family: SegoeNorm;
+}
+
+
+.wrapper {
+    width: 1300px;
+    height: 566px;
+    background: url(./assets/back1.png);
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 28px 0 0 140px; 
+}
+
+.imgA1 {
+    position: absolute;
+}
+
+.imgB1 {
+    position: absolute;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+
+.sign {
+    color: white;
+    font-family: lucidaSans;
+    font-style: italic;
+    font-size: 41px;
+    margin: 26px 0 0 86px;
+
+}
+
+.navbar {
+    width: 453px;    
+    margin: 71px 140px 0 0;
+    background-color: #f5c506;
+       
+}
+
+ 
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    height: 41px;
+    align-items: center;  
+}
+
+li .name {
+    margin-left: 9px;
+}
+
+ul:first-child {
+    margin-left: 39px;
+}
+
+ul:first-child {
+    margin-right: 22px;
+}
+
+.navbar ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #b99403;
+    align-items: center;
+    justify-content: center;
+    font-family: segoe;
+    font-weight: 900;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    height: 41px;   
+      
+}
+
+.content {
+    display: flex;
+    margin: 57px 0 0 150px;
+}
+
+.video1 {
+    width: 549px;
+    height: 327px;
+}
+
+.slider1 {
+    font-family: Asap;
+    font-size: 63px;
+    margin: 78px 0 0 45px;
+    text-align: center;
+}
+
+.slider1 .minimal {
+    color: #ffffff;
+    margin-top: 13px;   
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -196px;
+}
+
+.block_2 {
+    background: url(./assets/back2.png);    
+    width: 1300px;
+    height: 212px;
+    margin-top: 206px;
+}
+
+.block_2 .content_2 {
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: SegoeUI;
+    font-weight: 300;
+    font-size: 27px;
+    letter-spacing: 0.27px;
+}
+
+.block_2 .content_2 .line {
+    position: absolute;
+    margin-left: 139px;
+}
+
+.block_2 .content_2 .icon_1 {
+    position: absolute;
+    margin: 61px 0 0 253px;
+}
+
+.block_2 .content_2 .name_1 {
+    position: absolute;
+    margin: 149px 0 0 227px;
+}
+
+.block_2 .content_2 .line_1 {
+    position: absolute;
+    margin-left: 479px;
+}
+
+.block_2 .content_2 .icon_2 {
+    position: absolute;
+    margin: 37px 0 0 615px;
+}
+
+.block_2 .content_2 .name_2 {
+    position: absolute;
+    margin: 149px 0 0 592px;
+}
+
+.block_2 .content_2 .line_2 {
+    position: absolute;
+    margin-left: 818px;
+}
+
+.block_2 .content_2 .icon_3 {
+    position: absolute;
+    margin: 55px 0 0 940px;
+}
+
+.block_2 .content_2 .name_3 {
+    position: absolute;
+    margin: 149px 0 0 934px;
+}
+
+.block_2 .content_2 .line_3 {
+    position: absolute;
+    margin-left: 1159px;
+}
+
+.block_3 {
+    background: url(./assets/back3.png);    
+    width: 1300px;
+    height: 509px;
+    
+}
+
+.block_3 .head {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: white;
+    font-family: segoe;
+    margin-left: 139px;
+    position: relative;
+    top: 34px;    
+}
+
+.block_3 .parent {
+    display: flex;
+    margin-left: 139px;
+    margin-right: 142px;
+    margin-top: 73px;
+}
+
+
+.block_3 .parent .child1 {
+    width: 341px;
+    height: 232px;
+    background-color: #ec9e03;
+    color: white;
+    font-family: segoeLight;
+    font-size: 29px;
+    line-height: 38px;
+    
+}
+
+.block_3 .parent .child1 p {
+    margin: 15px 38px 34px 31px;
+}
+
+
+.block_3 .parent .child3 {
+    width: 329px;
+    height: 232px;
+    background-color: #ec9e03;
+    margin-left: 35px;
+}
+
+.block_3 .parent .child3 .info {
+    position: relative;
+}
+
+.block_3 .parent .child3 p {
+    position: absolute;
+    right: 0;
+    margin: 15px 18px 0 0;
+    font-family: segoeLight;
+    color: white;
+    font-size: 25px;
+}
+
+.block_3 .parent .child3 .img1 {
+    position: absolute;
+    margin: 57px 0 0 82px;
+}
+
+.block_3 .parent .child3 .img2 {
+    position: absolute;
+    right: 0;
+    margin: 206px 10px 0 0;
+}
+
+.block_3 .parent .child3 .img2 a:hover {
+    background-color: rgba(255, 255, 255, 0.5);      
+}
+
+.block_3 .date {
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+    margin-left: 139px;
+    margin-top: -3px;
+    text-align: center;
+    position: relative;
+}
+
+.block_3 .date .today {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 29px;
+}
+
+#number {
+    color: white;
+    font-family: SegoeUIbold;
+    font-size: 51px;
+    letter-spacing: 0.51px;
+    
+}
+
+#month {
+    color: #b26529;
+    font-family: SegoeNorm;
+    font-size: 21px;
+    letter-spacing: 0.21px;
+    
+}
+
+.block_3 .slider {
+    margin: 42px 191px 0 213px;
+}
+
+.block_4 {
+    background: url(./assets/back4.png);    
+    width: 1300px;
+    height: 499px;    
+}
+
+.block_4 .head {
+    font-size: 43px;
+    letter-spacing: 0.43;
+    text-transform: uppercase;
+    color: #ddb101;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 351px;
+    position: relative;
+    top: 43px;   
+}
+
+.block_4 .parent {
+    display: flex;
+    position: relative;
+}
+
+.block_4 .parent .child1 img {
+    position: absolute;
+    left: 138px;
+    top: 49px;
+    z-index: 1;
+}
+
+.block_4 .parent .child2 img {
+    position: absolute;
+    left: 157px;
+    top: 92px;
+}
+
+.block_4 .parent .child3 img {
+    position: absolute;
+    left: 504px;
+    top: 134px;
+}
+
+.block_4 .parent .child4 img {
+    position: absolute;
+    left: 659px;
+    top: 245px;
+}
+
+.block_4 .parent .child5 ul {
+    position: absolute;
+    left: 761px;
+    top: 112px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    list-style-image: url(./assets/bullet.png);
+    color: #a9a9a7;
+}
+
+.block_4 .parent .child5 ul li {
+    padding-left: 11px;
+    padding-top: 26px;
+    
+}
+
+footer {
+    background-color: #4c4c4c;
+    width: 1300px;
+    height: 64px;
+    box-shadow: 0px -4px 5px -1px rgba(0,0,0,0.75);
+}
+
+footer .logo {
+    margin: 0 0 0 140px; 
+
+}
+
+footer .imgA1 {
+    position: absolute;
+    padding-top: 3px;
+}
+
+
+footer .sign {
+    color: white;
+    font-family: lucidaSans;
+    font-style: italic;
+    font-size: 41px;
+    margin: 0 0 0 60px;
+    padding-top: 15px;
+
+}
